@@ -1,0 +1,4 @@
+function boolToWord(b){
+	if(b != false) return 'Yes';
+	return 'No';
+}
