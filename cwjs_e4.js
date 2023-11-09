@@ -1,7 +1,7 @@
 function squareSum(numbers){
-	let total;
+	let total = 0;
 	for(let n in numbers){
-		total += numbers[n]*2;
+		total += numbers[n]**2;
 	}
 	return total;
 }
